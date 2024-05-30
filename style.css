@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200&family=Poppins:wght@200;300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.card {
+    width: 290px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.text h3,
+.text p {
+    margin: 50px 0;
+}
+
+@media(max-width:500px) {
+    .card {
+        width: 80%;
+        /* height: 55%; */
+    }
+    .text {
+        width: 80%;
+        margin: auto;
+    }
+}
